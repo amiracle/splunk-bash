@@ -26,35 +26,35 @@ This will download and install the bash file in this git repo and add it to your
   - stops splunk instance
   - usage: `stopsplunk <instance_name>`
 - cds
- - changes directory into splunk instance
- - usage: `cds <instance_name>`
+  - changes directory into splunk instance
+  - usage: `cds <instance_name>`
 - addlic
- - adds a license to local splunk instance
- - usage: `addlic <instance_name>`
+  - adds a license to local splunk instance
+  - usage: `addlic <instance_name>`
 - splunkspace
- - displays the total space used by splunk instance
- - usage: `splunkspace <instance_name>`
+  - displays the total space used by splunk instance
+  - usage: `splunkspace <instance_name>`
 - backupsplunk
- - backs up (/etc/apps directory) from splunk instance
- - usage: `backusplunk <instance_name>`
+  - backs up (/etc/apps directory) from splunk instance
+  - usage: `backusplunk <instance_name>`
 - restoresplunk
- - restores splunk instance (/etc/apps directory only)
- - usage: `restoresplunk <instance_name>`
+  - restores splunk instance (/etc/apps directory only)
+  - usage: `restoresplunk <instance_name>`
 - listapps
- - lists apps from the local splunk instance
- - usage: `listapps <instance_name>`
+  - lists apps from the local splunk instance
+  - usage: `listapps <instance_name>`
 - fixperm
- - fixes permissions with splunk instance
- - usage: `fixperm <instance_name>`
+  - fixes permissions with splunk instance
+  - usage: `fixperm <instance_name>`
 - upgradesplunk
- - upgrades the local splunk instance
- - usage: `upgradesplunk <instance_name>`
+  - upgrades the local splunk instance
+  - usage: `upgradesplunk <instance_name>`
 - cleansplunk
- - cleans splunk instance
- - usage: `cleansplunk <instance_name>`
+  - cleans splunk instance
+  - usage: `cleansplunk <instance_name>`
 - rmsplunk
- - removes splunk instance
- - usage: `rmsplunk <instance_name>`
+  - removes splunk instance
+  - usage: `rmsplunk <instance_name>`
                 
 ### Directory Structure
 
