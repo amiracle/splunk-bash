@@ -24,7 +24,7 @@ fi
 ##Splunk Commands
 export BASE_DIR=/opt/splunk
 export SPLUNK_HOME=/opt/splunk
-export SPLUNK_LIC="/Users/kamiloamir/Box*"
+export SPLUNK_LIC="~/Downloads"
 
 #Stop, start, restart and upgrade individual instances of local Splunk Demos
 
@@ -122,14 +122,3 @@ active_sids() {
   svm list running | sed -e :a -e '$!N; s/\n/,/; ta'
 }
 
-awscpup() {
-sh /Users/kamiloamir/awscpup.sh
-}
-
-awscpdown() {
-sh /Users/kamiloamir/awscpdown.sh
-}
-
-awssh(){
-sh /Users/kamiloamir/awssh.sh
-}
