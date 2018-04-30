@@ -39,7 +39,7 @@ This will download and install the bash file in this git repo and add it to your
   - usage: `backusplunk <instance_name>`
 - restoresplunk
   - restores splunk instance (/etc/apps directory only)
-  - usage: `restoresplunk <instance_name>`
+  - usage: `restoresplunk <old_instance_name> <new_instance_name>`
 - listapps
   - lists apps from the local splunk instance
   - usage: `listapps <instance_name>`
