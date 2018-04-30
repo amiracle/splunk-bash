@@ -1,8 +1,6 @@
-
-#!/bin/bash
+#!/usr/bin/env bash
 # shellcheck disable=SC1090
 
-## /usr/bin/env bash
 # splunk-bash: Simple 
 # (c) 2017-2018 splunk-bash
 # 
