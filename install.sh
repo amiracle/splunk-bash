@@ -22,6 +22,9 @@ directory="/opt/splunk"
 # Go get the bash data from the S3 bucket    
 curl -k http://splunk-bash-install.s3-website-us-east-1.amazonaws.com/bash >> ~/Downloads/bash
 
+# Backup existing .profile to .orig_profile
+mv ~/.profile ~/.orig_profile
+
 # Append your .profile with the bash commands
 cat ~/Downloads/bash >> ~/.profile
 
