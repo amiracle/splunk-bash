@@ -1,6 +1,8 @@
-#!/usr/bin/env bash
+
+#!/bin/bash
 # shellcheck disable=SC1090
 
+## /usr/bin/env bash
 # splunk-bash: Simple 
 # (c) 2017-2018 splunk-bash
 # 
@@ -14,13 +16,13 @@
 #
 # Install with this command (from your Linux machine):
 #
-# curl -sSL https://bit.ly/splunk-bash | bash
+# curl -sSL https://https://s3.amazonaws.com/splunk-bash-install/install.sh | bash 
 
 # First, let's make sure you have the proper directory and variables set
 directory="/opt/splunk"
 
 # Go get the bash data from the S3 bucket    
-curl -k http://splunk-bash-install.s3-website-us-east-1.amazonaws.com/bash >> ~/Downloads/bash
+curl -Ssl https://s3.amazonaws.com/splunk-bash-install/bash >> ~/Downloads/bash
 
 # Backup existing .profile to .orig_profile
 mv ~/.profile ~/.orig_profile
