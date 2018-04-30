@@ -10,7 +10,7 @@ As a Splunk Sales Engineer I needed a way to quickly build and tear down Splunk 
 ### Install 
 
 Run this command:
-`curl -Ssl https://bit.ly/splunk-bash  | bash`
+`curl -Ssl https://s3.amazonaws.com/splunk-bash-install/install.sh | bash`
 
 This will download and install the bash file in this git repo and add it to your local $HOME/.profile . Once it's done, restart your terminal session.
 
