@@ -55,6 +55,14 @@ This will download and install the bash file in this git repo and add it to your
 - rmsplunk
   - removes splunk instance
   - usage: `rmsplunk <instance_name>`
+- svm
+  - parent command that can run some sub-commands
+    - list
+      - usage : svm list
+      - shows list of installed splunk instances with their versions
+    - running
+      - usage : svm running
+      - shows running instances
                 
 ### Directory Structure
 
