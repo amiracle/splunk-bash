@@ -3,7 +3,7 @@ As a Splunk Sales Engineer I needed a way to quickly build and tear down Splunk 
 
 ## Install Process
 
-1. Download Splunk (splunk-<version>-<build>-<os>.tgz) from www.splunk.com. * Make sure to get the *.tgz file. * Install it in your /opt directory: `tar xzvf splunk-<version>-<build>-<os>.tgz -C /opt` This will put the splunk bits in the Splunk Home (`$SPLUNK_HOME`) Directory
+1. Download Splunk (splunk-<version>-<build>-<os>.tgz) from www.splunk.com. * Make sure to get the *.tgz file. * Install it in your /opt/upgrade directory: `tar xzvf splunk-<version>-<build>-<os>.tgz -C /opt/upgrade` This will put the splunk bits in the Splunk Upgrade (`/opt/upgrade/splunk`) Directory
   
 2. Get your developer license from [Splunk Dev](dev.splunk.com) dev.splunk.com and put it in your downloads directory.
 

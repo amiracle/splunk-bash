@@ -17,7 +17,7 @@
 # curl -sSL https://https://s3.amazonaws.com/splunk-bash-install/install.sh | bash 
 
 # First, let's make sure you have the proper directory and variables set
-directory="/opt/splunk"
+directory="/opt/upgrade"
 
 # Go get the bash data from the S3 bucket    
 curl -Ssl https://s3.amazonaws.com/splunk-bash-install/bash >> ~/Downloads/bash
@@ -31,7 +31,7 @@ cat ~/Downloads/bash >> ~/.profile
 if [ -d "$directory" ];then
 echo "Splunk Home exists"
 else
-echo "Splunk Home Directory does not exist, please download and install Splunk."
+echo "Splunk Upgrade Directory does not exist, please download and install Splunk."
 open "https://www.splunk.com/download"
 fi
 echo "Download complete, shell commands installed. Please restart your terminal session for the changes to take effect."
