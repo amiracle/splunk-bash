@@ -35,3 +35,5 @@ echo "Splunk Upgrade Directory does not exist, please download and install Splun
 open "https://www.splunk.com/download"
 fi
 echo "Download complete, shell commands installed. Please restart your terminal session for the changes to take effect."
+wget https://s3.amazonaws.com/splunk-bash-install/install_eventgen.sh 
+sh install_eventgen.sh 

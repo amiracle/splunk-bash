@@ -6,8 +6,7 @@ read yneventgen
 if  [[ "$yneventgen" == *y* ]];then
 	#open "https://s3.amazonaws.com/splunk-bash-install/eventgen-develop.tgz"
     wget https://s3.amazonaws.com/splunk-bash-install/eventgen-develop.tgz
-	#echo "Downloading file https://s3.amazonaws.com/splunk-bash-install/eventgen-develop.tgz"
-	echo "Downloaded eventget to" pwd
+	echo "Downloaded eventget to $pwd"
 #setup eventgen
 echo "What is the Splunk instance you want to install the eventget into?"
 read splunkhome
