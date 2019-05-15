@@ -41,7 +41,7 @@ cleansplunk() {
 }
 
 createsplunk() {
-mkdir -p /opt/splunk/splunk_$1 | sleep 10 | cp -R /opt/upgrade/splunk/* /opt/splunk/splunk_$1
+mkdir -p /opt/splunk/splunk_$1 && cp -R /opt/upgrade/splunk/* /opt/splunk/splunk_$1
 }
 
 addlic() {
