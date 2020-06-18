@@ -1,6 +1,8 @@
 # splunk-bash
 As a Splunk Sales Engineer I needed a way to quickly build and tear down Splunk instances for creating demos and testing out scenarios. Since I'm also a lasy admin, I wanted a way to do this in a simple and repeatable fashion. What I built was a series of simple commands that live in your `$HOME/.profile` which allow you to do a host of functions. 
 
+For users in ZSH, you'll need to update your `$HOME/.zprofile` with the commands. 
+
 ## Install Process
 
 1. Download Splunk (splunk-<version>-<build>-<os>.tgz) from www.splunk.com. * Make sure to get the *.tgz file. * Install it in your /opt/upgrade directory: `tar xzvf splunk-<version>-<build>-<os>.tgz -C /opt/upgrade` This will put the splunk bits in the Splunk Upgrade (`/opt/upgrade/splunk`) Directory
