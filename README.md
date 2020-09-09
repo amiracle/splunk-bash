@@ -12,7 +12,7 @@ For users in ZSH, you'll need to update your `$HOME/.zprofile` with the commands
 ### Install 
 
 Run this command:
-`curl -Ssl https://s3.amazonaws.com/splunk-bash-install/install.sh | bash`
+`curl -Ssl https://s3.amazonaws.com/splunk-bash-installs/install.sh | bash`
 
 This will download and install the bash file in this git repo and add it to your local $HOME/.profile . Once it's done, restart your terminal session.
 
@@ -20,7 +20,7 @@ This will download and install the bash file in this git repo and add it to your
 
 I've added the shell script `install_eventgen.sh` to the package which just runs the following commands and installs eventgen on your splunk instance: 
 
-`wget https://s3.amazonaws.com/splunk-bash-install/install_eventgen.sh 
+`wget https://s3.amazonaws.com/splunk-bash-installs/install_eventgen.sh 
 sh install_eventgen.sh`
 
 Once installed, you can add any TA (that is eventgen enabled) and start seeing sample data flow into your instance.
