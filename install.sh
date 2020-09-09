@@ -14,13 +14,13 @@
 #
 # Install with this command (from your Linux machine):
 #
-# curl -sSL https://https://s3.amazonaws.com/splunk-bash-install/install.sh | bash 
+# curl -sSL https://https://s3.amazonaws.com/splunk-bash-installs/install.sh | bash 
 
 # First, let's make sure you have the proper directory and variables set
 directory="/opt/upgrade"
 
 # Go get the bash data from the S3 bucket    
-curl -Ssl https://s3.amazonaws.com/splunk-bash-install/bash >> ~/Downloads/bash
+curl -Ssl https://s3.amazonaws.com/splunk-bash-installs/bash >> ~/Downloads/bash
 
 # Backup existing .profile to .orig_profile
 mv ~/.profile ~/.orig_profile
@@ -35,5 +35,5 @@ echo "Splunk Upgrade Directory does not exist, please download and install Splun
 open "https://www.splunk.com/download"
 fi
 echo "Download complete, shell commands installed. Please restart your terminal session for the changes to take effect."
-wget https://s3.amazonaws.com/splunk-bash-install/install_eventgen.sh 
+wget https://s3.amazonaws.com/splunk-bash-installs/install_eventgen.sh 
 sh install_eventgen.sh 
